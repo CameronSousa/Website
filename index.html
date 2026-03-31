@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cameron Sousa | Cybersecurity Portfolio</title>
+    <!--
+      TODO: Update the following placeholders before publishing:
+        - Email:    Replace all instances of "cameron@example.com" with your real email address.
+        - LinkedIn: Replace "cameronsousa" in the LinkedIn URL with your actual profile handle.
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">CS</a>
+        <ul class="nav-links">
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#involvement">Involvement</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Cameron Sousa</h1>
+        <p class="hero-tagline">Cybersecurity Student &amp; Aspiring Analyst</p>
+        <p class="hero-bio">
+          BS Cybersecurity &amp; Advanced Technology student at Norwich
+          University (Expected May&nbsp;2027) with a concentration in Digital
+          Forensics and a minor in Information Warfare. Dean's List, 3.76&nbsp;GPA.
+          SANS ICS CTF Top&nbsp;10 finisher, SOC analyst intern, and member of
+          the Norwich University Cyber Leader Development Program.
+        </p>
+        <div class="hero-actions">
+          <a href="#experience" class="btn btn-primary">View Experience</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+        <div class="social-links">
+          <a
+            href="https://github.com/CameronSousa"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            class="social-icon"
+          ><i class="fab fa-github"></i></a>
+          <a
+            href="https://linkedin.com/in/cameronsousa"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            class="social-icon"
+          ><i class="fab fa-linkedin"></i></a>
+          <a
+            href="mailto:cameronfsousa@gmail.com"
+            aria-label="Email"
+            class="social-icon"
+          ><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="avatar-ring">
+          <div class="avatar-initials">CS</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <p class="section-subtitle">Academic background &amp; achievements</p>
+
+        <div class="edu-grid">
+          <div class="edu-card">
+            <div class="edu-header">
+              <i class="fas fa-university edu-icon"></i>
+              <div class="edu-meta">
+                <span class="edu-date">Expected May 2027</span>
+              </div>
+            </div>
+            <h3 class="edu-school">Norwich University</h3>
+            <p class="edu-location"><i class="fas fa-map-marker-alt"></i> Northfield, VT</p>
+            <p class="edu-degree">
+              Bachelor of Science — Cybersecurity &amp; Advanced Technology
+            </p>
+            <ul class="edu-details">
+              <li><i class="fas fa-chevron-right"></i> Concentration: Digital Forensics</li>
+              <li><i class="fas fa-chevron-right"></i> Minor: Information Warfare</li>
+              <li><i class="fas fa-chevron-right"></i> GPA: 3.76 / 4.00</li>
+              <li><i class="fas fa-chevron-right"></i> Dean's List</li>
+            </ul>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-header">
+              <i class="fas fa-graduation-cap edu-icon"></i>
+              <div class="edu-meta">
+                <span class="edu-date">June 2024</span>
+              </div>
+            </div>
+            <h3 class="edu-school">Saugerties Senior High School</h3>
+            <p class="edu-location"><i class="fas fa-map-marker-alt"></i> Saugerties, NY</p>
+            <p class="edu-degree">Honors High School Diploma</p>
+            <ul class="edu-details">
+              <li><i class="fas fa-chevron-right"></i> GPA: 4.00 / 4.00</li>
+              <li><i class="fas fa-chevron-right"></i> 34 College Transfer Credits</li>
+              <li><i class="fas fa-chevron-right"></i> National Honor Society</li>
+              <li><i class="fas fa-chevron-right"></i> High Honor Roll</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">Technologies &amp; tools I work with</p>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Languages</h3>
+            <ul class="skill-list">
+              <li><span class="skill-tag">Python</span></li>
+              <li><span class="skill-tag">C++</span></li>
+              <li><span class="skill-tag">Java</span></li>
+              <li><span class="skill-tag">SQL</span></li>
+              <li><span class="skill-tag">HTML</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-shield-alt"></i> Security Tools</h3>
+            <ul class="skill-list">
+              <li><span class="skill-tag">Wireshark</span></li>
+              <li><span class="skill-tag">Nmap</span></li>
+              <li><span class="skill-tag">Burp Suite</span></li>
+              <li><span class="skill-tag">Security Onion</span></li>
+              <li><span class="skill-tag">Elastic Stack</span></li>
+              <li><span class="skill-tag">Zeek</span></li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-desktop"></i> Platforms</h3>
+            <ul class="skill-list">
+              <li><span class="skill-tag">Windows</span></li>
+              <li><span class="skill-tag">Linux</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <p class="section-subtitle">Cyber, work, and professional achievements</p>
+
+        <h3 class="exp-group-title"><i class="fas fa-shield-virus"></i> Cyber Experience</h3>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h4>Tier 1 Analyst Intern</h4>
+                <span class="timeline-date">Aug 2025 – Present</span>
+              </div>
+              <p class="timeline-org">NUARI SOC · Northfield, VT</p>
+              <ul class="timeline-bullets">
+                <li>Conducted Tier 1 security monitoring within the NUARI Elastic Cloud Environment, analyzing alerts, escalating incidents, and documenting activity in alignment with SOC procedures.</li>
+                <li>Completed training and hands-on qualification labs to develop proficiency in Elastic Stack and Zeek for real-world threat detection and response.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h4>Team Member — Cyber Fortress 2025</h4>
+                <span class="timeline-date">Aug 2025</span>
+              </div>
+              <p class="timeline-org">Norfolk, VA</p>
+              <ul class="timeline-bullets">
+                <li>Participated in a weeklong practical exercise gaining hands-on experience with incident response and Tier 2 SOC responsibilities.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item highlight">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h4>
+                  Top 10 Finisher — SANS ICS Capture The Flag
+                  <span class="badge">🏆 Top 10 / 160+</span>
+                </h4>
+                <span class="timeline-date">Aug 2025</span>
+              </div>
+              <p class="timeline-org">Norfolk, VA</p>
+              <ul class="timeline-bullets">
+                <li>Secured a Top 10 finish out of over 160 industry professionals in a highly competitive SANS Industrial Control Systems (ICS) Capture The Flag event.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h4>Member — Cyber Leader Development Program</h4>
+                <span class="timeline-date">Apr 2024 – Present</span>
+              </div>
+              <p class="timeline-org">Norwich University · Northfield, VT</p>
+              <ul class="timeline-bullets">
+                <li>Selected member in an elite program providing real-world, DoD-focused cyber experiences and professional development.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h4>Member — Unit 1819</h4>
+                <span class="timeline-date">Aug 2024 – Present</span>
+              </div>
+              <p class="timeline-org">Norwich University · Northfield, VT</p>
+              <ul class="timeline-bullets">
+                <li>Attend weekly meetings covering OSINT, binary exploitation, SQL injections, and other offensive and defensive cybersecurity topics.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <h3 class="exp-group-title exp-group-title--spaced"><i class="fas fa-briefcase"></i> Work Experience</h3>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h4>Crew Member</h4>
+                <span class="timeline-date">Jul 2020 – Jul 2025 (Seasonal)</span>
+              </div>
+              <p class="timeline-org">Dunkin' · Saugerties, NY</p>
+              <ul class="timeline-bullets">
+                <li>Delivered exceptional customer service in a fast-paced environment, efficiently preparing and serving beverages and food items.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Campus & Community Involvement -->
+    <section id="involvement" class="section">
+      <div class="container">
+        <h2 class="section-title">Campus &amp; Community</h2>
+        <p class="section-subtitle">Leadership and involvement beyond the classroom</p>
+
+        <div class="involvement-grid">
+
+          <div class="involvement-card">
+            <div class="involvement-icon"><i class="fas fa-football-ball"></i></div>
+            <h3>Men's Football Team</h3>
+            <p class="involvement-org">Norwich University · Northfield, VT</p>
+            <p class="involvement-date">Aug 2024 – Present</p>
+            <p class="involvement-desc">
+              Dedicated 15 hours per week to practice, meetings, and games
+              while carrying 18 credit hours per semester.
+            </p>
+          </div>
+
+          <div class="involvement-card">
+            <div class="involvement-icon"><i class="fas fa-users"></i></div>
+            <h3>President — Senior Class Student Government</h3>
+            <p class="involvement-org">Saugerties Senior High School · Saugerties, NY</p>
+            <p class="involvement-date">Sep 2023 – Jun 2024</p>
+            <p class="involvement-desc">
+              Led a team of student council members to organize school-wide
+              events including prom, fundraisers, and spirit weeks, enhancing
+              student engagement and school culture.
+            </p>
+          </div>
+
+          <div class="involvement-card">
+            <div class="involvement-icon"><i class="fas fa-lightbulb"></i></div>
+            <h3>President — Business &amp; Entrepreneurship Club</h3>
+            <p class="involvement-org">Saugerties Senior High School · Saugerties, NY</p>
+            <p class="involvement-date">Aug 2022 – Jun 2024</p>
+            <p class="involvement-desc">
+              Built partnerships with local businesses and industry
+              professionals to secure guest speakers, sponsorships, and
+              resources for club events.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          Whether you have an opportunity, a question, or just want to say
+          hi — my inbox is always open.
+        </p>
+
+        <div class="contact-cards">
+          <a
+            href="mailto:cameron@example.com"
+            class="contact-card"
+            aria-label="Send me an email"
+          >
+            <i class="fas fa-envelope"></i>
+            <span>cameron@example.com</span>
+          </a>
+          <a
+            href="https://github.com/CameronSousa"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-card"
+            aria-label="GitHub profile"
+          >
+            <i class="fab fa-github"></i>
+            <span>CameronSousa</span>
+          </a>
+          <a
+            href="https://linkedin.com/in/cameronsousa18"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-card"
+            aria-label="LinkedIn profile"
+          >
+            <i class="fab fa-linkedin"></i>
+            <span>cameronsousa</span>
+          </a>
+        </div>
+
+        <a href="mailto:cameron@example.com" class="btn btn-primary contact-cta">
+          Say Hello <i class="fas fa-paper-plane"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        Designed &amp; built by
+        <strong>Cameron Sousa</strong>
+      </p>
+      <div class="footer-socials">
+        <a
+          href="https://github.com/CameronSousa"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        ><i class="fab fa-github"></i></a>
+        <a
+          href="https://linkedin.com/in/cameronsousa"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        ><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:cameron@example.com" aria-label="Email"
+          ><i class="fas fa-envelope"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
